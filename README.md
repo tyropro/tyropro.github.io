@@ -1,1 +1,0 @@
-tyropro.github.io
