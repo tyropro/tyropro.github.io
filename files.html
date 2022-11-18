@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <title>tyro's corner</title>
@@ -13,10 +14,10 @@
     <div class="sidebar">
         <div class="logo_content">
             <div class="logo">
-                <i class='bx bxl-gitlab' ></i>
+                <i class='bx bxl-gitlab'></i>
                 <div class="logo_name">tyropro</div>
             </div>
-            <i class='bx bx-menu' id="btn" ></i>
+            <i class='bx bx-menu' id="btn"></i>
         </div>
         <ul class="nav_list">
             <li>
@@ -35,14 +36,14 @@
             </li>
             <li>
                 <a href="#">
-                    <i class='bx bx-folder' ></i>
+                    <i class='bx bx-folder'></i>
                     <span class="links_name">Files</span>
                 </a>
                 <span class="tooltip">Files</span>
             </li>
             <li>
                 <a href="#">
-                    <i class='bx bx-cog' ></i>
+                    <i class='bx bx-cog'></i>
                     <span class="links_name">Settings</span>
                 </a>
                 <span class="tooltip">Settings</span>
@@ -56,23 +57,45 @@
                         <div class="name">tyropro</div>
                         <div class="job">Student</div>
                     </div>
-                </div>                 
+                </div>
             </div>
         </div>
     </div>
     <div class="page_content">
-        <div class="text">Home Content</div>
+        <div id="titlebar">
+            <div class="download-icon">
+                <i class='bx bxs-download' undefined></i>
+            </div>
+            <div class="title">Download Page</div>
+        
+            <div class="logo">
+                <i class='bx bxl-gitlab'></i>
+                <div class="logo-name">tyropro</div>
+            </div>
+        
+        </div>
+        
+        <div id="download-box">
+            <div id="new-discs" class="downloads">
+                <div class="download-info">
+                    <i class='bx bx-music'></i>
+                    <div class="download-title">New Discs</div>
+                </div>
+                <a href="https://f004.backblazeb2.com/file/tyropro-studio/Downloads/New%20Disks.zip">v1.0</a>
+            </div>
+        </div>
     </div>
 
     <script>
         let btn = document.querySelector("#btn");
         let sidebar = document.querySelector(".sidebar");
 
-        btn.onclick = function() {
+        btn.onclick = function () {
             sidebar.classList.toggle("active");
         }
 
     </script>
 
 </body>
+
 </html>
