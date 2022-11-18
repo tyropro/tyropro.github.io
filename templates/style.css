@@ -216,7 +216,7 @@ body{
 }
 
 #titlebar {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(30, 30, 30, 0.1);
     display: flex;
     width: auto;
     top: 0;
@@ -253,7 +253,7 @@ body{
 }
 
 #download-box {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(30, 30, 30, 0.1);
     width: auto;
     height: 88vh;
     margin: 20px;
